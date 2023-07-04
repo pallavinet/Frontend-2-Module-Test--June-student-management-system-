@@ -1,0 +1,70 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /* margin: 0; */
+    background-color: black;
+    color: white;
+    
+
+}
+/* ================section1========= */
+h1{
+    font-size: 48px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+.input{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+.submit{
+    /* margin-top: -10; */
+    margin-left: 10px;
+    width: 70vh;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.s1{
+
+height: 300px;
+}
+/* ===========section2====================== */
+.s2{
+
+
+}
+.searchsec{
+    height: 100px;
+    
+}
+.search{
+width: 200vh;
+height: 40px;
+margin: 10px;
+padding: 10px;
+border: 1px solid white;
+
+}
+/* =============Table========================= */
+
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 200vh;
+  }
+  img{
+    height: 40px;
+  }
+  .ed{
+    display: flex;
+    float: right;
+  }

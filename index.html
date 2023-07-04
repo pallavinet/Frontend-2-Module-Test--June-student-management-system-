@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>student management CRUD</title>
+</head>
+<body onload="showdata()">
+    <!-- section1 -->
+    <section class="s1">
+        <form class="up_date">
+        <h1>Student Management CRUD</h1>
+        <div class="f1">
+                <input type="text" hidden class="ID" id="ID">
+                
+            </div>
+            
+        <input type="text" placeholder="Name" class="name" id="name">
+        <input type="email" placeholder="Email" class="email" id="email">
+        <input type="quantity" placeholder="GPA" class="grade" id="grade">
+        </div><br>
+        <div class="f2">
+            <input type="quantity" placeholder="Age" class="age" id="age">
+        <input type="text" placeholder="Degree" class="degree" id="degree">
+
+        <!-- <br><br> -->
+        <button type="button"  onclick="add_data()">Add Student</button>
+        <br>
+        <button type="button" onclick="update()">Update</button>
+        </div>
+    </form>
+        
+        
+        
+
+    </section>
+    <!-- section2 -->
+    <section class="s2">
+        <div class="searchsec">
+            <input type="text" class="search" placeholder="Search By Name, Email or Degree">
+        </div>
+        <table class="Table" id="Table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Student Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>gpa</th>
+                    <th>Degree</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <!-- <tr>
+                    <td id="ids">cghj</td>
+                    <td id="name">cbhj</td>
+                    <td id="email">cbhj</td>
+                    <td id="age">cbhj</td>
+                    <td id="degree">cbhj
+                        <div class="ed">
+                            <button class="edit">
+                                <img src="icons-edit.png" alt="icons-edit">
+                            </button>
+                            
+                            <button class="deletes">
+                                <img src="icons-delete.png" alt="icons-delete">
+                            </button>
+                            
+                        </div>
+                        
+                    </td>
+                </tr> -->
+            </tbody>
+            
+        </table>
+           
+            
+        
+
+
+    </section>
+    
+    <script src="javas.js"></script>
+</body>
+</html>
